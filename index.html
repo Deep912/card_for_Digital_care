@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Contact Card</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .card {
+            background: white;
+            padding: 20px 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            max-width: 350px;
+            text-align: center;
+        }
+        .card h2 {
+            margin-bottom: 10px;
+        }
+        .card p {
+            font-style: italic;
+            color: #555;
+            margin-bottom: 20px;
+        }
+        .contact a {
+            display: block;
+            margin: 8px 0;
+            color: #0077cc;
+            text-decoration: none;
+        }
+        .contact a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h2>Your Name</h2>
+        <p>Your Slogan or Tagline Here</p>
+        <div class="contact">
+            <a href="https://www.instagram.com/yourusername" target="_blank">Instagram</a>
+            <a href="https://wa.me/1234567890" target="_blank">WhatsApp</a>
+            <a href="https://www.facebook.com/yourusername" target="_blank">Facebook</a>
+            <a href="mailto:youremail@gmail.com">Gmail</a>
+        </div>
+    </div>
+</body>
+</html>
